@@ -35,8 +35,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: antirez/linenoise
-          ref: ${{ env.tagName }}
-          path: ${{ env.libraryName }}
+          ref: '${{ env.tagName }}'
+          path: '${{ env.libraryName }}'
           submodules: true
           
       - name: download compiler
